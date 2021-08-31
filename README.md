@@ -7,6 +7,6 @@ Repositório criado com o intuito de estudar/testar/experimentar tecnologias/té
 - `React.memo`
 - `React.useCallback` e `React.useMemo`
 - `React context API`
-- `useContextSelector`
+- `React context API` vs `useContextSelector`
 - `CSS/SCSS` vs `JSS`
 - `React.forwardRef`
