@@ -10,3 +10,6 @@ Repositório criado com o intuito de estudar/testar/experimentar tecnologias/té
 - `React context API` vs `useContextSelector`
 - `CSS/SCSS` vs `JSS`
 - `React.forwardRef`
+
+## Javascript
+- Generators (`yield`, `iterator`).
