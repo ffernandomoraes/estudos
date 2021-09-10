@@ -1,4 +1,4 @@
-# Higher-Order Components
+# Higher-Order Components (HOC)
 
 ### O que é?
 
@@ -11,6 +11,19 @@
 ### Exemplos
 
 `React.memo` do react, `withRouter` do react-router-dom, `connect` do redux, `createFragmentContainer` do Relay...
+
+```js
+import React from 'react';
+
+/*
+  Neste caso o React.memo() é um HOC.
+*/
+const Componente = React.memo(() => {
+  return <>Lorem Ipsom dolor a met</>;
+});
+
+export default Componente;
+```
 
 ### Referências
 
