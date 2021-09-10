@@ -1,16 +1,16 @@
 # React.memo
 
-## O que é?
+### O que é?
 
-O `React.memo` é um [Higher-Order component](https://github.com/ffernandomoraes/estudos/react/higher-order-components).
+O `React.memo` é um [Higher-Order component](https://github.com/ffernandomoraes/estudos/tree/master/react/higher-order-components).
 
-## Para que serve?
+### Para que serve?
 
 Para evitar renderizações desnecessárias. Ele "memoriza" um componente e só renderiza-o novamente caso o mesmo tenha alguma propriedade ou estado modificado. Com isso, o react consegue minimizar o número de operações custosas de DOM que são necessárias para alterar a UI.
 
 Mas lembre-se, o `React.memo` verifica apenas as alterações de propriedades. Se o seu componente tiver um useState, useReducer ou useContext em sua implementação, ele ainda será renderizado quando o estado ou o contexto for modificado.
 
-## Exemplo
+### Exemplo
 
 ```js
 import { memo, useCallback, useState } from 'react';
@@ -42,7 +42,8 @@ function Component() {
 
 /*
   Repare que o componente sem o React.memo, sempre que houver qualquer modificação
-  no componente pai (<Component />), o componente filho <TitleComponent /> é renderizado novamente sem necessidade.
+  no componente pai (<Component />), o componente filho <TitleComponent /> 
+  é renderizado novamente sem necessidade.
 */
 function TitleComponent({ children, memo }: IChild) {
   console.log(`${memo ? '<TitleComponentMemorized />' : '<TitleComponent />'} rendered`);
@@ -50,7 +51,8 @@ function TitleComponent({ children, memo }: IChild) {
 }
 
 /*
-  Essa renderização desnecessária não ocorre com o componente <TitleComponentMemorized /> pelo uso do React.memo.
+  Essa renderização desnecessária não ocorre com o
+  componente <TitleComponentMemorized /> pelo uso do React.memo.
 */
 const TitleComponentMemorized = memo(TitleComponent);
 
@@ -64,6 +66,6 @@ const ContentComponentMemorized = memo(ContentComponent);
 export default Component;
 ```
 
-## Referência
+### Referência
 
 - [Documentação React](https://pt-br.reactjs.org/docs/react-api.html#reactmemo)

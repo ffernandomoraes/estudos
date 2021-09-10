@@ -4,7 +4,8 @@ Repositório criado com o intuito de estudar/testar/experimentar tecnologias/té
 
 ## React
 - [Arquitetura padrão e configurações](https://github.com/ffernandomoraes/estudos/tree/master/react/arquitetura)
-- `React.memo` (TODO)
+- [Higher-Order Components](https://github.com/ffernandomoraes/estudos/tree/master/react/higher-order-components)
+- [React.memo](https://github.com/ffernandomoraes/estudos/tree/master/react/memo)
 - `React.useCallback` e `React.useMemo` (TODO)
 - `React context API` (TODO)
 - `React context API` vs `useContextSelector` (TODO)
