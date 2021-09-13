@@ -7,7 +7,7 @@ Repositório criado com o intuito de estudar/testar/experimentar tecnologias/té
 
 ## React
 - [Arquitetura padrão e configurações](https://github.com/ffernandomoraes/estudos/tree/master/react/arquitetura)
-- [Higher-Order Components](https://github.com/ffernandomoraes/estudos/tree/master/react/higher-order-components)
+- [Higher-Order Components (HOC)](https://github.com/ffernandomoraes/estudos/tree/master/react/higher-order-components)
 - [React.memo](https://github.com/ffernandomoraes/estudos/tree/master/react/memo)
 - `React.useCallback` (TODO)
 - `React.useMemo` (TODO)
