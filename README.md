@@ -18,3 +18,6 @@ Repositório criado com o intuito de estudar/testar/experimentar tecnologias/té
 
 ## Javascript
 - Generators (`yield`, `iterator`) (TODO)
+
+## CSS
+- Shadow Effect (TODO)
