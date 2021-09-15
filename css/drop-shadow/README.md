@@ -27,7 +27,7 @@ Código:
 
 ### Suporte aos navegadores
 
-- [Can I Use](https://caniuse.com/css-boxshadow)
+- [Can I Use](https://caniuse.com/css-filters)
 
 ### Referências
 
