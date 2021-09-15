@@ -10,7 +10,9 @@ Aplica um efeito de sombra projetada à imagem de entrada. Diferente do `box-sha
 
 ### Exemplo
 
-![Examplo](https://programmer.ink/images/think/9955c7d066b305b99634024c9f39e123.jpg)
+![Examplo](./example.jpeg)
+
+Código:
 
 ```css
 .drop-shadow {
@@ -23,11 +25,10 @@ Aplica um efeito de sombra projetada à imagem de entrada. Diferente do `box-sha
 }
 ```
 
-### Suporte
+### Suporte aos navegadores
 
-[Can I Use](https://caniuse.com/css-boxshadow)
+- [Can I Use](https://caniuse.com/css-boxshadow)
 
 ### Referências
 
-- [Opus Software](https://www.opus-software.com.br/design-patterns/)
-- [Hostgator](https://www.hostgator.com.br/blog/design-patterns-e-seus-beneficios/)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow())
