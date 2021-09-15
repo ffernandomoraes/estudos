@@ -20,4 +20,4 @@ Repositório criado com o intuito de estudar/testar/experimentar tecnologias/té
 - Generators (`yield`, `iterator`) (TODO)
 
 ## CSS
-- Shadow Effect (TODO)
+- [Shadow Effect](https://github.com/ffernandomoraes/estudos/tree/master/css/drop-shadow)
